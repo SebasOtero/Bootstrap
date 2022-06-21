@@ -11,12 +11,12 @@
 }
 
 .main {
-    height: 80vh;
+    height: 70vh;
     justify-content: center
 }
 
 .footer {
-    height: 10vh;
+    height: 20vh;
 }
 
 /* HEADER COMIENZO*/
@@ -24,6 +24,11 @@
 header {
     background-color: black;
 }
+
+.header ul li:hover {
+    transform: scale(1.5);
+}
+
 
 header nav {
     display: flex;
@@ -231,7 +236,7 @@ main .formulario p {
 
 .carouselslide {
     position: relative;
-    max-width: 475px;
+    max-width: 52.5vh;
 
 }
 
